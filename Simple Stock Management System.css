@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+body {
+	font-family: 'Open Sans', sans-serif;	
+}
+
+
+fieldset {
+	border: solid #34344a 10px;
+	padding: 10px 20px 10px 20px;
+}
+
+legend {
+	font-size: 24px;
+	
+}
+ 
+ #main_heading {
+	 margin: auto;
+	width: 450px;
+	 text-decoration: underline #FF5733;
+ }
+ 
+ /*the layout of the add form*/
+ #add_form_heading {
+	  margin: auto;
+	  width: 900px; 
+	  padding: 10px 20px 10px 20px;		
+}
+
+/*the layout of the remove from*/
+#remove_form_heading {
+	margin: 20px 30px 20px 200px;
+	  width: 900px; 
+	  padding: 10px 20px 10px 20px;		
+}
+
+/*the layout of the stock display and average prices*/
+#stock_display {
+	margin: auto;
+	  width: 900px; 
+	  padding: 10px 20px 10px 20px;
+}
+
+button {
+	background-color: #FF5733;
+	width: 20%;
+	padding: 14px 28px;
+	font-weight: bold;
+}   
+
+/*table in the stock display and average prices*/
+table {
+	 border-collapse: separate;
+     border-spacing: 0 15px;
+}
+
+td {
+        width: 150px;
+        text-align: center;
+        padding: 5px;
+}

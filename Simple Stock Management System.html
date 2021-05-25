@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="Simple Stock Management System.css">
+
+<title>Stock Management</title>
+
+</head>
+
+<body>
+
+
+<div id="main_heading"><h1>Stock Management System<h1></div>
+
+<div id="add_form_heading">
+
+<!--Form to add a product to inventory-->
+<form>
+<fieldset>
+<legend>Add Stock</legend>
+
+<!--Drop-down list to chooose product to add to inventory-->
+<label for="choose_products">Choose a Product</label>
+<select id="choose_products" name="choose_products">
+<option value="product_1">PRODUCT 1</option>
+<option value="product_2">PRODUCT 2</option>
+<option value="product_3">PRODUCT 3</option>
+</select>
+
+<!--Type number box for amount of stock to be added-->
+<label for="stock_amount">Units</label>
+<input type="number" id="stock_amount" name="stock_amount" min="0" step="1" width="6" value="">
+
+<!--Type number box for the price per stock unit-->
+<label for="stock_price">Price per Unit</label>
+<input type="number" id="stock_price" name="stock_price" placeholder="0.00" step="0.01" value=""><br>
+<br>
+<button type="button" id="add_stock">Add Stock</button>
+ </fieldset>
+ </form>
+ </div>
+ 
+<div id="remove_form_heading">
+
+<!--Form to remove a product from inventory-->
+<form>
+<fieldset>
+<legend>Remove Stock</legend>
+
+<!--Drop-down list to chooose product to remove from inventory-->
+<label for="choose_products_1">Choose a Product</label>
+<select id="choose_products_1" name="choose_products">
+<option value="product_1_1">PRODUCT 1</option>
+<option value="product_2_1">PRODUCT 2</option>
+<option value="product_3_1">PRODUCT 3</option>
+</select>
+
+<!--Type number box for amount of stock to be added-->
+<label for="stock_amount_1">Units</label>
+<input type="number" id="stock_amount_1" name="stock_amount_1" min="0" step="1" value="">
+
+<!--Type email box for the email of the buyer-->
+<label for="buyer_email">E-mail</label>
+<input type="email" id="buyer_email" name="buyer_email" value=""><br>
+<br>
+<button type="button" id="remove_stock">Remove Stock</button>
+ </fieldset>
+ </form>
+</div>
+
+<!--Stock display and average price area and table-->
+<div id="stock_display">
+<fieldset>
+<legend>Stock Levels & Average Stock Price</legend>
+<table id="stock_table">
+<tr>
+    <th></th>
+    <th>Stock Levels</th>
+    <th>Average Stock Price</th>
+  </tr>
+  <tr>
+    <td>PRODUCT 1</td>
+    <td><span id="stock_product1"></span></td>
+    <td><span id="average_product1"</td>
+  </tr>
+  <tr>
+    <td>PRODUCT 2</td>
+    <td><span id="stock_product2"></span></td>
+    <td><span id="average_product2"</td>
+  </tr>
+  <tr>
+    <td>PRODUCT 3</td>
+    <td><span id="stock_product3"></span></td>
+    <td><span id="average_product3"</td>
+  </tr>
+  </table>
+</fieldset>
+
+<!--Connect to JavaScript File-->
+<script src="Simple Stock Management System.js"></script>
+
+</body>
+
+</html>
+ 
