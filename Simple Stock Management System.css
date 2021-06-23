@@ -24,22 +24,23 @@ legend {
  
  /*the layout of the add form*/
  #add_form_heading {
-	  margin: auto;
-	  width: 900px; 
+	width: 60%;
+	margin: 0 auto;	
 	  padding: 10px 20px 10px 20px;		
 }
 
-/*the layout of the remove from*/
+/*the layout of the remove form*/
 #remove_form_heading {
-	margin: 20px 30px 20px 200px;
-	  width: 900px; 
-	  padding: 10px 20px 10px 20px;		
+	
+	  padding: 10px 20px 10px 20px;	
+	  width: 60%;
+  margin: 0 auto;	
 }
 
 /*the layout of the stock display and average prices*/
 #stock_display {
-	margin: auto;
-	  width: 900px; 
+	width: 60%;
+	margin: 0 auto;	
 	  padding: 10px 20px 10px 20px;
 }
 
